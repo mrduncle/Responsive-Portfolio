@@ -1,0 +1,281 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #ffffff;
+    min-height: 100vh;
+    font-size: 18px;
+    /* text-align: center; */
+}
+
+.body-cont {
+    width: 960px;
+    /* height: 100%; */
+    /* background: #777; */
+    border: 2px;
+    border-color: #cccccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+nav {
+    width: 70%;
+    padding: 0px 144px;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0px 0px 2px 0px;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #ffffff;
+    border-color: #cccccc;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* width: 100%; */
+    color: #4aaaa5;
+    font-size:1.5em;
+    margin: 0;
+    /* padding-left: 20px; */
+}
+
+.yourname {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 250px;
+    padding: 25px 20px;
+}
+
+.flex-container2 {
+    /* width: 300px; */
+    word-spacing: 4px;
+    /* text-decoration: none; this doesn't work for some bizarre reason*/
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+span {
+    color: #e6e6e6;
+}
+
+.page-bkgrd{
+    background-image: url("memphis-mini.png");
+    padding-top: 20px;
+    width: 70%;
+    padding: 20px 144px 50px 144px;
+}
+
+.page-content{
+    background: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px 1px 1px 1px;
+}
+
+.CntntHdr {
+    margin: 18.09px 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0px 0px 2px 0px;
+}
+
+.npicfont {
+    word-spacing: 5px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+
+.nfont {
+    word-spacing: 5px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;  
+}
+
+form {
+    line-height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+label {
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    width: 98.8%;
+    padding: 2px;
+    /* border-style: solid;
+    border: 2px;
+    border-color: #a9a9a9; */
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 99.1%;
+    height: 200px;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+button {
+    color: #ffffff;
+    background: #4aaaa5;
+    padding: 5px 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.flex-container3 {
+    word-spacing: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+    text-align: center;
+    color: #ffffff;
+}
+
+#Yewby {
+    width: 253.3px;
+    height: 190px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    position: relative;
+}
+
+#Great-Falls {
+    width: 337.2px;
+    height: 190px;
+    padding-right: 20px;
+}
+
+#Tomkos { 
+    width: 337.2px;
+    height: 190px;
+    padding-right: 20px;
+}
+
+#Play-park {
+    width: 253.3px;
+    height: 190px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#Child-play {
+    width: 253.3px;
+    height: 190px;
+    padding-right: 20px;
+}
+
+#The-Green {
+    width: 285.2px;
+    height: 190px;
+    padding-right: 20px;
+}
+
+#overlay-text1 {
+    position: absolute;
+    top: 356.5px;
+    width: auto;
+    padding: 10px 0px;
+    background: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    /* padding-bottom: 10px; */
+} 
+
+#overlay-text2 {
+    position: absolute;
+    top: 570.5px;
+    width: auto;
+    padding: 10px 0px;
+    background: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    /* padding-bottom: 10px; */
+} 
+
+#overlay-text3 {
+    position: absolute;
+    top: 782.5px;
+    width: auto;
+    padding: 10px 0px;
+    background: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    /* padding-bottom: 10px; */
+} 
+
+
+footer {
+    /*position: fixed for a sticky footer*/
+    text-align: center;
+    font-size: 0.5em;
+    color: #ffffff;
+    background: #666666;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 8px 0px 0px 0px;
+    border-color: #4aaaa5;
+    width: 960px;
+    height: 10px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 640px) {
+    nav {
+        width: 40%;
+        padding: 0px;
+    }
+    .page-bkgrd{
+        width: 40%;
+        padding: 20px 0px 50px 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 0px;
+    }
+    .page-bkgrd{
+        padding: 20px 0px 50px 0px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    nav {
+        padding: 0px 144px 0px 0px;
+    }
+    .page-bkgrd{
+        padding: 20px 144px 50px 0px;
+    }
+}
